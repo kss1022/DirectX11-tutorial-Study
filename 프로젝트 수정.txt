@@ -1,0 +1,35 @@
+링커 ->  입력 -> 추가 종속성 
+d3d11.lib
+d3dcompiler.lib
+winmm.lib
+
+OR
+
+#pragma comment(lib, "d3d11.lib")
+#pragma comment(lib, "d3dcompiler.lib")
+
+
+
+xnamath.h 대신에 DirectXMath.h와 DirectXPackdedVector.h	 포함
+using namespace DirectX;
+using namespace DirectX::PackedVector;
+
+
+D3DX11CompileFromFile  를 D3DCompileFromFile 변경
+D3DCompileFromFile(szFileName, nullptr, nullptr, szEntryPoint, szShaderModel,
+		dwShaderFlags, 0, ppBlobOut, &pErrorBlob);
+
+
+
+
+Texture 함수수정
+https://m.blog.naver.com/sorkelf/220846504837
+
+
+
+
+
+fx 파일 오류
+진입점 이름 PS
+
+셰이더 형식 픽셀 셰이더 변경

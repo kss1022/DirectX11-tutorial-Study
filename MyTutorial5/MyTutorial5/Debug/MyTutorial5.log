@@ -1,0 +1,3 @@
+﻿  compilation object save succeeded; see C:\Users\현규\Desktop\DX11\Study\MyTutorial5\Debug\Tutorial07.cso
+  main.cpp
+c:\users\현규\desktop\dx11\study\mytutorial5\mytutorial5\main.cpp(468): error C3861: 'D3DX11CreateShaderResourceViewFromFile': 식별자를 찾을 수 없습니다.
